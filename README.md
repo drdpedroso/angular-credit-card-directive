@@ -40,3 +40,7 @@ Angular directive for getting the credit card type based on his numbers.
 Is necessary to have ngMask to generate the mask (https://github.com/candreoliveira/ngMask). You can simply do this:
 
     <input type="text" name="cardNumber" ng-model="card.cardNumber" credit-card-type value="">
+
+And get the type like this:
+
+    <pre> {{type}} </pre>
